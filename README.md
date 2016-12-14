@@ -17,7 +17,7 @@ After updating RVM plugin, you *need to update* your project's configuration fil
 2. Get update script and save it to temporary directory.
 
  ```sh
- $ curl -o /tmp/convert.rb https://raw.github.com/jenkinsci/rvm-plugin/master/bin/convert.rb
+ $ curl -o /tmp/convert.rb https://raw.githubusercontent.com/jenkinsci/rvm-plugin/master/bin/convert.rb
  ```
 
 3. Update project configuration file.
@@ -27,3 +27,7 @@ After updating RVM plugin, you *need to update* your project's configuration fil
  ```
 
 The update script renames original configuration file to `<original file name>.bak` in case update fails.
+
+
+Contributors:
+[Daniel Foglio](https://github.com/danielfoglio)

@@ -1,9 +1,9 @@
 Jenkins::Plugin::Specification.new do |plugin|
   plugin.name = 'rvm'
-  plugin.version = '0.4.3'
+  plugin.version = '0.6'
   plugin.description = 'Run Jenkins builds in RVM (with Rapid7 modifications)'
 
-  plugin.url = 'https://github.com/blt04/rvm-plugin'
+  plugin.url = 'https://github.com/rapid7/rvm-plugin'
   plugin.developed_by 'kohsuke', 'kk@kohsuke.org'
   plugin.uses_repository :github => 'rvm-plugin'
 
